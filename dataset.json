@@ -1,0 +1,138 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "howdy",
+        "hi there"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What's on your mind?",
+        "Hey! Nice to meet you. How can I assist?",
+        "Good day! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you later",
+        "farewell",
+        "take care",
+        "bye bye",
+        "see you soon"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later! Take care.",
+        "Farewell! Come back anytime.",
+        "Bye bye! It was nice chatting with you."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thank you so much",
+        "thanks a lot",
+        "appreciate it",
+        "grateful"
+      ],
+      "responses": [
+        "You're welcome! Happy to help.",
+        "No problem at all!",
+        "Glad I could assist!",
+        "Anytime! Let me know if you need more help."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "what is your name",
+        "who are you",
+        "what are you called",
+        "tell me your name",
+        "what's your name"
+      ],
+      "responses": [
+        "I'm an Autonomous Transformer Chatbot!",
+        "You can call me Transformer Bot.",
+        "My name is Chatbot, powered by AI.",
+        "I'm your friendly AI assistant."
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "tell me about python",
+        "what is python",
+        "python programming",
+        "learn python",
+        "python language"
+      ],
+      "responses": [
+        "Python is a high-level programming language known for its simplicity and readability.",
+        "Python is great for beginners and used in web development, data science, and AI.",
+        "Python was created by Guido van Rossum and first released in 1991.",
+        "Python supports multiple programming paradigms and has a vast library ecosystem."
+      ]
+    },
+    {
+      "tag": "ai",
+      "patterns": [
+        "what is ai",
+        "artificial intelligence",
+        "tell me about ai",
+        "machine learning",
+        "deep learning"
+      ],
+      "responses": [
+        "AI stands for Artificial Intelligence, which enables machines to perform tasks that typically require human intelligence.",
+        "AI includes machine learning, natural language processing, and computer vision.",
+        "Machine learning is a subset of AI that allows systems to learn from data.",
+        "Deep learning uses neural networks to solve complex problems."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "help me",
+        "i need help",
+        "assist me",
+        "what can you do"
+      ],
+      "responses": [
+        "I can help with general questions about Python, AI, and more. Just ask!",
+        "I'm here to assist you. What do you need help with?",
+        "Feel free to ask me anything about programming or technology.",
+        "I can provide information on various topics. How can I help today?"
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "what",
+        "huh",
+        "i don't understand",
+        "confused",
+        "not sure"
+      ],
+      "responses": [
+        "I'm not sure I understand. Can you rephrase that?",
+        "Sorry, I didn't catch that. Could you explain?",
+        "I'm still learning! Can you try asking differently?",
+        "Let me think... I'm not sure about that one."
+      ]
+    }
+  ]
+}
